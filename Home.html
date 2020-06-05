@@ -11,6 +11,7 @@ html {
 header {
     background-color: rgb(255, 255, 255);
     border-left: 10px solid green;
+    padding: 11px 10px 10px 15px;
 }
 
 h2 {
@@ -35,7 +36,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em
 
 }
 
@@ -52,7 +53,7 @@ body {
 #ball1 {
     position: absolute;
     animation-name: roll;
-    animation-duration: 6s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     
@@ -61,8 +62,8 @@ body {
 @keyframes roll {
     0% {left: 150px;
         transform:rotate(0deg);}
-    50% {left: 500px;
-        transform:rotate(280deg);}
+    50% {left: 610px;
+        transform:rotate(360deg);}
     100% {left: 150px;
         transform:rotate(0deg);}
 }
@@ -83,7 +84,7 @@ body {
 <div class= "soccerball" id="ball1"><img title="Kick Me!" height="100px" width="100px" src="Assets/1200px-Soccer_ball.svg.png" alt="A soccer ball"></div>
 <title>Do you want to play some soccer or what?</title>
 <header>
-    <h1>Welcome</h1>
+    <h1>Welcome!</h1>
 </header>
 <body>
     <h2>Who am I?</h2>
@@ -100,3 +101,20 @@ Enter your phone number:
 <input type="tel" id="phone" name="Phone #" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Must be in format ###-###-####">
 <input type="submit" value="Join!">
 </form>
+
+<h2>Rules</h2>
+<h3>
+    <ol>
+        <li>Anyone and everyone is welcome to play.</li>
+        <li>Friendliness is more important than competitiveness.</li>
+        <li></li>
+        <li></li>
+    </ol>
+</h3>
+<h2>Unofficial Rules</h2>
+<h3>
+    <ul>
+        <li>If the ball goes between your legs (also known as a 'Nutmeg') you have to do 10 push-ups.</li>
+        <li>If you are nutmegged and a goal is scored directly afterwards, you have to do 25 push-ups.</li>
+    </ul>
+</h3>
